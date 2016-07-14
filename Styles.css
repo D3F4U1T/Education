@@ -1,0 +1,67 @@
+.Header
+{
+	width: auto;
+	height: 90px;
+	background: yellow;
+	padding: 5px;
+	border: solid 1px black;
+}
+
+.Menu
+{
+	width: 20%;
+	height: 600px;
+	background: #F8F8FF;
+	padding: 5px;
+	margin-top: 10px;
+	border: solid 1px black;
+	float: left;
+}
+
+.Slider
+{
+	width: 78%;
+	height: 400px;
+	background: green;
+	padding: 5px;
+	margin-top: 10px;
+	border: solid 1px black;
+	float: right;
+}
+
+.Block
+{
+	width: 25%;
+	height: 170px;
+	padding: 5px;
+	margin-top: 18px;
+	margin-left: 0.827%;
+	border: solid 1px black;
+	float: right;
+}
+
+.Authorization
+{
+	width: 40%;
+	height: 200px;
+	padding: 5px;
+	margin-top: 10px;
+	border: solid 1px black;
+	text-align: center;
+	float: left;
+}
+
+.Title_center
+{
+	text-align: center;
+}
+
+.Parent:hover .Child
+{
+	display: block;
+}
+
+.Child
+{
+	display: none;
+}
